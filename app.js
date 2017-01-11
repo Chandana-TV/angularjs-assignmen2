@@ -15,10 +15,7 @@ function ToBuyController(ShoppingListCheckOffService) {
   {
     ShoppingListCheckOffService.bought(itemIndex);
   }
-  itemToBuy.hasItems = function ()
-  {
-    return (ShoppingListCheckOffService.items.hasItems);
-  }
+  
 }
 
 
